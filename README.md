@@ -1,10 +1,9 @@
-# macstatus.sh - Status Line - aa and voilá!
+# macstatus.sh - Status Line for MacOS
 
 Type macstatus.sh and bash will return a status line like this:
 
-
 ```
-[C:192.168.1.1] [L:0.60] [D:57%] [M:150M] [S:Mute] [B:50%] [01.09.2017 15:07]
+[C:192.168.1.101] [L:2.132] [D:79%] [M:1253M] [S:100%] [B:42%] [30.11.2019 00:29]
 ```
 This features:
 - C: Network connected to
@@ -15,7 +14,7 @@ This features:
 - B: Battery Level
 - Date and time
 
-You can use it with watch to have a "top in line" application:
+You can use it with watch and have a "top in line" application:
 
 ```
 $ watch -n 1 macstatus.sh
