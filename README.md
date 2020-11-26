@@ -1,6 +1,6 @@
 # macstatus.sh - Status Line for MacOS
 
-Type macstatus.sh and bash will return a status line like this:
+Execute macstatus.sh with your favorite shell and it will return a status line like this:
 
 ```
 [C:192.168.1.101] [L:2.132] [D:79%] [M:1253M] [S:100%] [B:42%] [30.11.2019 00:29]
